@@ -11,12 +11,12 @@ def initialize(name)
     @name
   end
 end
- fido = Dog.new
-fido.name = "Fido"
+# fido = Dog.new
+# fido.name = "Fido"
 
-fido.name
-# => "Fido"
+# fido.name
+# # => "Fido"
 
-fido.bark
-woof!
-# => nil
+# fido.bark
+# woof!
+# # => nil
