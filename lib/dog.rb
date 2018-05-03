@@ -1,7 +1,6 @@
 class Dog
-def initialize(name, bark)
+def initialize(name)
     @name = name
-  @bark = bark
   end
  
   def name=(name)
@@ -12,11 +11,8 @@ def initialize(name, bark)
     @name
   end
   
-  def bark=(bark)
-    @bark = "woof!"
-  end
   def bark
-    @bark
+    puts "woof!"
   end
 end
 # fido = Dog.new
