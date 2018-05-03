@@ -1,13 +1,9 @@
-class Dog
-  def initialize(breed)
-    @breed = breed
-  end
- 
-  def breed=(breed)
-    @breed = breed
-  end
- 
-  def breed
-    @breed
-  end
-end# Your code goes here!
+# fido = Dog.new
+fido.name = "Fido"
+
+fido.name
+# => "Fido"
+
+fido.bark
+woof!
+# => nil
